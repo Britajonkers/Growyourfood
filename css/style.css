@@ -1,17 +1,15 @@
-/* *{
-font-family:url('https://fonts.googleapis.com/css2?family=Geologica:wght@600&display=swap');
 
 
-} */
-
-html, body{
-    background-color:#FDEBDA;
+html,
+body {
+    background-color: #FDEBDA;
     font-family: 'Geologica', sans-serif;
     margin: 0;
-    padding:0;
+    padding: 0;
+  
 }
 
-h1{
+h1 {
     text-align: center;
     font-size: 3em;
 
@@ -19,143 +17,75 @@ h1{
 
 
 /* ////////index///////// */
-body.index{
+body.index {
     background-image: url('../images/bgbuttonlogo.png');
     background-size: cover;
     height: 100vh;
     width: 100vw;
 }
 
-/* 
-.homebutton{
-    background-image: url(../images/home\ button.png);
-    background-size:cover;
-} */
 
 
-/* nav{
+nav {
     width: 100%;
-    background-color: #333;
     overflow: hidden;
 }
 
-nav a{
+nav a {
     float: left;
     display: block;
-    color: white;
+    color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.874em 1.000em;
     text-decoration: none;
-} */
-
-
-
-nav{
-
-    text-align:left
-
 }
 
-nav ul{
-    margin: 0;
-
-}
-nav li{
-    display: inline;
+.icon {
+    height: 2em;
 }
 
-main ul{
+
+
+main ul {
     text-align: center;
-    margin-top: 14.4em;
+    margin-top: 9.4em;
     margin-left: -2em;
-   
+
 }
 
-main li{
-    margin-top: 4.6em;
+main li {
+    margin-top: 3.9em;
     display: block;
 }
 
-main ul a{
+main ul a {
     text-decoration: none;
     font-size: 2.5em;
+    color: black;
 }
-
-/* header{
-    margin-bottom: 35%;
-} */
- 
-     /* main */
-
-/* button{
-   font-family: 'Geologica', sans-serif;
-   display: flex;
-   flex-direction: column;
-   margin: auto;
-   text-align: center;
-   background-color: #83FFA9;
-  
-   background-image: url(../images/button\ groente.png); 
-   background-size: cover;
-   background-position: center;
-   margin-bottom: 0.5em;
-   border: none;
-   font-size: 3em;
-   
-   margin-top: 0.3em;
-   margin-bottom: 1.1em;
-
-   border-radius: 0.4em
-
- 
-} */
-
-
-/* .button2{
-    background-image: url(../images/button\ fruit.jpg);
-    background-color: #FF544C;
-    
-} */
-
-/* .button3{
-    background-image: url(../images/button\ zaden.jpg);
-    background-color:#B88978;
-} */
-/* 
-.button4{
-
-    background-image: url(../images/button\ kruiden.jpg);
-    background-color: #35B35D;
-} */
 
 
 
 
 /* ///////fruitzoek////// */
 
-body.fruitzoek {
- 
-    
-
-}
 
 
-
-main{
+main {
     text-align: center;
-  
+
 }
-img{
+
+img {
     width: 50%;
-    
     padding-left: 1.3em;
 }
 
 
 form {
-background-color: #d6929b;
-border-radius: 1em;
-margin: 0em 1em;
+    background-color: #d6929b;
+    border-radius: 1em;
+    margin: 0em 1em;
 }
 
 input {
@@ -163,59 +93,48 @@ input {
     font: 2em;
     color: white;
     padding: 0.9em 0.5em;
-    
-
-  }
 
 
+}
 
 
-.fruit{
-    background-color:#F2AEAE;
+
+
+.fruit {
+    background-color: #F2AEAE;
     color: black;
-    padding:0.8em;
-    padding-bottom: 1.5em;
+    padding: 0.8em;
+    padding-bottom: 3em;
     text-decoration: none;
     border-radius: 1em;
     font-size: 2.5em;
     margin: 1em;
-    
+
 
     display: flex;
-    flex-direction:column;
-    justify-content:space-evenly;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
-/* .framboos{
-    background-color:#F2AEAE;
-    color: black;
-    padding:0.8em;
-    padding-bottom: 3.5em;
-    text-decoration: none;
-    border-radius: 1em;
-    font-size: 2.5em;
-    margin: 1em;
-}
- */
-
 
 /* (bron https://www.freecodecamp.org/news/html-button-link-code-examples-how-to-make-html-hyperlinks-using-the-href-attribute-on-tags/) */
 
 /* ///////aardbei////// */
 
-section{
+section {
     margin: 0em 2em 1em 2em;
 }
 
-section h2, p{
+section h2,
+p {
     text-align: left;
 }
 
-section h3{
+section h3 {
     text-align: left;
     color: red;
 }
 
-footer{
-justify-content: center;
+footer {
+    justify-content: center;
 
 }
